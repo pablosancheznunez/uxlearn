@@ -56,7 +56,7 @@ Once the GitHub repository is publicly available, the package can be installed u
 
 ```r
 # install.packages("remotes")
-remotes::install_github("YOUR-USERNAME/uxlearn")
+remotes::install_github("pablosancheznunez/uxlearn")
 ```
 
 Replace `YOUR-USERNAME` with the GitHub account hosting the repository.
