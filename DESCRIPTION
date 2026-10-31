@@ -1,0 +1,30 @@
+Package: uxlearn
+Type: Package
+Title: An Open R Toolkit for Learning User Experience
+Version: 0.1.0
+Authors@R:
+    person(
+      "Pablo", "Sánchez-Núñez",
+      email = "psancheznunez@outlook.com",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0001-7845-9506")
+    )
+Description: An open R toolkit designed to support the teaching and
+    learning of user experience (UX). Provides tools for calculating
+    usability metrics, analysing usability studies, and generating
+    reproducible simulations of synthetic UX data. Includes educational
+    datasets and practical functions for exploring user behaviour,
+    evaluating usability, and interpreting UX research results.
+URL: https://pablosancheznunez.com
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
+Depends:
+    R (>= 3.5.0)
+Imports:
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
