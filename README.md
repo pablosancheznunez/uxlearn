@@ -48,6 +48,36 @@ The dataset contains participant profiles, task characteristics, success outcome
 
 **All simulated observations are synthetic and do not represent real users.**
 
+
+### 5. UX Learning Exercises
+
+Generate structured exercises at beginner, intermediate, and advanced levels.
+Students can explore usability results, task-level analysis, interpretations,
+and questions designed to develop their UX evaluation skills.
+
+```r
+exercise <- ux_learning(
+  data = usability_test,
+  level = "intermediate"
+)
+exercise$results
+exercise$task_analysis
+```
+
+### 6. UX Recommendations and Case Studies
+
+Explore data-driven recommendations and practical UX case studies across
+e-commerce, digital banking, online education, and e-government.
+
+```r
+ux_recommendations(usability_test)
+ux_case_study(domain = "education", level = "beginner")
+```
+
+### 7. Educational Materials
+
+UXLearn includes an educational workbook and an answer key to support
+independent learning and practical classroom activities.
 ## Installation
 
 UXLearn is currently under development and is not yet available on CRAN.
@@ -59,7 +89,6 @@ Once the GitHub repository is publicly available, the package can be installed u
 remotes::install_github("pablosancheznunez/uxlearn")
 ```
 
-Replace `YOUR-USERNAME` with the GitHub account hosting the repository.
 
 ## Getting started
 
@@ -138,6 +167,22 @@ Its educational approach combines:
 
 The package is intended as an open educational resource that can be used in university courses, workshops, and independent learning.
 
+
+## Accessing the learning materials
+
+The package includes the UX Learning Workbook and its Answer Key.
+Use `ux_learning_materials()` to locate the files:
+
+```r
+# List all educational materials
+ux_learning_materials()
+
+# Open the workbook
+ux_learning_materials("workbook", open = TRUE)
+
+# Open the answer key
+ux_learning_materials("answer_key", open = TRUE)
+```
 ## Development status
 
 UXLearn is under active development.
@@ -154,8 +199,13 @@ Further information about contributing will be provided when the public reposito
 
 ## License
 
-UXLearn is intended to be distributed under the MIT License.
+The R package and its source code are distributed under the MIT License.
 
+The educational materials in `inst/learning-materials/`, including the
+UX Learning Workbook and Answer Key, are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Synthetic datasets are provided for educational and illustrative purposes.
 ## Citation
 
 Citation information will be provided when the package reaches its first public release.

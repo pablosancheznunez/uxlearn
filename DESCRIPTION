@@ -15,7 +15,8 @@ Description: An open R toolkit designed to support the teaching and
     reproducible simulations of synthetic UX data. Includes educational
     datasets and practical functions for exploring user behaviour,
     evaluating usability, and interpreting UX research results.
-URL: https://pablosancheznunez.com
+URL: https://github.com/pablosancheznunez/uxlearn
+BugReports: https://github.com/pablosancheznunez/uxlearn/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -26,5 +27,8 @@ Depends:
 Imports:
     stats
 Suggests:
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr

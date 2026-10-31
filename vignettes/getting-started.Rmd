@@ -1,0 +1,310 @@
+
+---
+title: "Getting Started with uxlearn"
+subtitle: "A Practical Guide to Learning UX Evaluation"
+author: "Pablo Sánchez-Núñez"
+date: "`r Sys.Date()`"
+output:
+  rmarkdown::html_vignette:
+    toc: true
+    number_sections: true
+vignette: >
+  %\VignetteIndexEntry{Getting Started with uxlearn}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+library(uxlearn)
+```
+
+# Introduction
+
+User Experience (UX) evaluation is an essential part of designing and
+improving digital products and services. Understanding how users interact
+with an interface requires collecting, analysing and interpreting
+usability data.
+
+The **uxlearn** package is an open R toolkit designed to support the
+teaching and learning of UX evaluation. It combines usability metrics,
+educational exercises, synthetic datasets and practical case studies.
+
+The package aims to help students develop practical skills in:
+
+- Understanding usability metrics.
+- Analysing user performance.
+- Identifying usability problems.
+- Interpreting quantitative results.
+- Translating findings into design recommendations.
+
+All datasets included in this tutorial are synthetic. They are designed
+for educational purposes and do not represent real users or empirical
+research findings.
+
+# Getting started
+
+Load the package:
+
+```{r}
+library(uxlearn)
+```
+
+# Exploring the educational datasets
+
+The package includes four synthetic usability datasets representing
+different digital environments:
+
+- E-commerce.
+- Digital banking.
+- Online education.
+- E-government.
+
+Each dataset contains 150 observations from 30 simulated participants
+completing five tasks.
+
+```{r}
+data("usability_test")
+data("ux_banking")
+data("ux_education")
+data("ux_egovernment")
+
+dim(usability_test)
+dim(ux_banking)
+dim(ux_education)
+dim(ux_egovernment)
+```
+
+Explore the online shopping dataset:
+
+```{r}
+head(usability_test)
+```
+
+The datasets share a common structure, including participant identifiers,
+task names, task success, completion time, errors and satisfaction scores.
+
+# Understanding UX metrics
+
+Usability metrics provide quantitative information about the interaction
+between users and digital products.
+
+The datasets included in uxlearn allow students to explore four
+fundamental dimensions:
+
+- **Task success:** whether users complete a task successfully.
+- **Task time:** how long users take to complete a task.
+- **Errors:** the number of errors made during interaction.
+- **Satisfaction:** users' reported satisfaction.
+
+For example, calculate the overall task success rate:
+
+```{r}
+mean(usability_test$success) * 100
+```
+
+Calculate average task completion time:
+
+```{r}
+mean(usability_test$time_seconds)
+```
+
+Calculate average errors:
+
+```{r}
+mean(usability_test$errors)
+```
+
+Calculate average satisfaction:
+
+```{r}
+mean(usability_test$satisfaction)
+```
+
+These metrics should be interpreted together. A high task success rate
+does not necessarily imply an efficient or satisfactory experience.
+
+# Learning UX through practical exercises
+
+The `ux_learning()` function generates structured learning exercises
+based on usability data.
+
+Exercises are available at three levels:
+
+- Beginner.
+- Intermediate.
+- Advanced.
+
+For example, generate an intermediate exercise using the e-commerce
+dataset:
+
+```{r}
+exercise <- ux_learning(
+  data = usability_test,
+  level = "intermediate"
+)
+
+exercise$results
+```
+
+Explore the task-level analysis:
+
+```{r}
+exercise$task_analysis
+```
+
+The exercise includes quantitative results, interpretations and
+questions designed to encourage students to analyse usability findings.
+
+## Accessing the learning materials
+
+UXLearn includes an educational workbook and an answer key designed
+to support independent learning and practical UX evaluation.
+
+The `ux_learning_materials()` function locates these resources
+within the installed package.
+
+List the available materials:
+
+```{r}
+materials <- ux_learning_materials()
+materials
+```
+
+You can also open a specific resource directly:
+
+```{r, eval=FALSE}
+ux_learning_materials("workbook", open = TRUE)
+ux_learning_materials("answer_key", open = TRUE)
+```
+
+# Generating UX recommendations
+
+The `ux_recommendations()` function transforms the results of a learning
+exercise into structured recommendations and learning activities.
+
+```{r}
+recommendations <- ux_recommendations(exercise)
+
+recommendations$recommendations
+```
+
+Tasks are assigned an educational priority according to their observed
+success rate:
+
+- **High:** below 80%.
+- **Medium:** from 80% to below 90%.
+- **Low:** 90% or above.
+
+These thresholds are illustrative teaching rules rather than universal
+usability benchmarks.
+
+Students can use the recommendations to identify usability barriers,
+compare alternative design solutions and propose improvements.
+
+# Exploring practical case studies
+
+The `ux_case_study()` function creates contextualised UX case studies
+using the package's educational datasets.
+
+Four domains are available.
+
+## E-commerce
+
+```{r}
+ecommerce_case <- ux_case_study(
+  domain = "ecommerce",
+  level = "beginner"
+)
+
+ecommerce_case$title
+ecommerce_case$usability_results
+```
+
+## Digital banking
+
+```{r}
+banking_case <- ux_case_study(
+  domain = "banking",
+  level = "intermediate"
+)
+
+banking_case$title
+banking_case$usability_results
+```
+
+## Online education
+
+```{r}
+education_case <- ux_case_study(
+  domain = "education",
+  level = "advanced"
+)
+
+education_case$title
+education_case$usability_results
+```
+
+## E-government
+
+```{r}
+egovernment_case <- ux_case_study(
+  domain = "e-government",
+  level = "advanced"
+)
+
+egovernment_case$title
+egovernment_case$usability_results
+```
+
+Each case study combines a practical context, usability results,
+recommendations and educational activities.
+
+# Suggested learning activities
+
+The following activities can be used in university courses, workshops
+and independent learning.
+
+**Activity 1. Understanding usability**
+
+Calculate task success, average completion time and errors for a
+selected dataset. Explain what each metric reveals about the user
+experience.
+
+**Activity 2. Identifying usability problems**
+
+Use `ux_learning()` to analyse a dataset. Identify the tasks with the
+lowest success rates and discuss possible causes.
+
+**Activity 3. Prioritising design improvements**
+
+Generate recommendations with `ux_recommendations()`. Justify which
+usability problems should be addressed first.
+
+**Activity 4. Comparing digital environments**
+
+Compare the four case studies. Discuss how usability challenges differ
+between e-commerce, banking, education and public administration.
+
+**Activity 5. Evidence-based design**
+
+Propose an interface improvement based on the observed usability
+results. Explain which metrics could be used to evaluate whether the
+proposed improvement works.
+
+# Conclusions
+
+The uxlearn package provides an educational environment for exploring
+UX evaluation through synthetic datasets, usability metrics, structured
+exercises and practical case studies.
+
+By combining quantitative analysis with guided interpretation and
+design recommendations, the package supports a progressive approach
+to learning UX evaluation.
+
+The toolkit is intended for teaching, learning and experimentation.
+Its synthetic datasets should not be interpreted as empirical evidence
+about real users or digital services.
