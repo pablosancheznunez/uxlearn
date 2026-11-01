@@ -1400,7 +1400,7 @@ You should also be able to recognise accessibility barriers and consider how dig
 
 # About the `uxlearn` Package
 
-`uxlearn` is an open R toolkit designed to support the teaching and learning of User Experience (UX).
+`uxlearn` is an R package designed to support the teaching and learning of User Experience (UX).
 
 It provides educational datasets and practical functions for exploring user behaviour, evaluating usability, interpreting UX metrics and generating learning activities.
 

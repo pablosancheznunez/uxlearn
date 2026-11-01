@@ -7,9 +7,9 @@ improving digital products and services. Understanding how users
 interact with an interface requires collecting, analysing and
 interpreting usability data.
 
-The **uxlearn** package is an open R toolkit designed to support the
-teaching and learning of UX evaluation. It combines usability metrics,
-educational exercises, synthetic datasets and practical case studies.
+**uxlearn** is an R package designed to support the teaching and
+learning of UX evaluation. It combines usability metrics, educational
+exercises, synthetic datasets and practical case studies.
 
 The package aims to help students develop practical skills in:
 
@@ -211,14 +211,14 @@ materials <- ux_learning_materials()
 #> UX Learning Materials
 #> 
 #>                                                                                                                   workbook 
-#> "C:/Users/psanc/AppData/Local/Temp/RtmpQfzMuu/temp_libpath8bd47dd17c72/uxlearn/learning-materials/UX-Learning-Workbook.md" 
+#> "C:/Users/psanc/AppData/Local/Temp/RtmpAFyUiO/temp_libpath830c56b9301f/uxlearn/learning-materials/UX-Learning-Workbook.md" 
 #>                                                                                                                 answer_key 
-#>           "C:/Users/psanc/AppData/Local/Temp/RtmpQfzMuu/temp_libpath8bd47dd17c72/uxlearn/learning-materials/Answer-Key.md"
+#>           "C:/Users/psanc/AppData/Local/Temp/RtmpAFyUiO/temp_libpath830c56b9301f/uxlearn/learning-materials/Answer-Key.md"
 materials
 #>                                                                                                                   workbook 
-#> "C:/Users/psanc/AppData/Local/Temp/RtmpQfzMuu/temp_libpath8bd47dd17c72/uxlearn/learning-materials/UX-Learning-Workbook.md" 
+#> "C:/Users/psanc/AppData/Local/Temp/RtmpAFyUiO/temp_libpath830c56b9301f/uxlearn/learning-materials/UX-Learning-Workbook.md" 
 #>                                                                                                                 answer_key 
-#>           "C:/Users/psanc/AppData/Local/Temp/RtmpQfzMuu/temp_libpath8bd47dd17c72/uxlearn/learning-materials/Answer-Key.md"
+#>           "C:/Users/psanc/AppData/Local/Temp/RtmpAFyUiO/temp_libpath830c56b9301f/uxlearn/learning-materials/Answer-Key.md"
 ```
 
 You can also open a specific resource directly:
@@ -437,6 +437,6 @@ By combining quantitative analysis with guided interpretation and design
 recommendations, the package supports a progressive approach to learning
 UX evaluation.
 
-The toolkit is intended for teaching, learning and experimentation. Its
+The package is intended for teaching, learning and experimentation. Its
 synthetic datasets should not be interpreted as empirical evidence about
 real users or digital services.

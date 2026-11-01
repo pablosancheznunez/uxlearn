@@ -1,7 +1,7 @@
 
 # UXLearn
 
-### An Open R Toolkit for Learning User Experience
+### An R Package for Learning User Experience
 
 **Learn UX. Measure Experience. Design Better.**
 
@@ -210,6 +210,6 @@ Creative Commons Attribution 4.0 International (CC BY 4.0).
 Synthetic datasets are provided for educational and illustrative purposes.
 ## Citation
 
-Sánchez-Núñez, P. (2026). *uxlearn: An Open R Toolkit for Learning User Experience* (Version 0.1.0) [R package]. https://pablosancheznunez.com/uxlearn/
+Sánchez-Núñez, P. (2026). *uxlearn: An R Package for Learning User Experience* (Version 0.1.0) [R package]. https://pablosancheznunez.com/uxlearn/
 
 Author: Pablo Sánchez-Núñez · ORCID [0000-0001-7845-9506](https://orcid.org/0000-0001-7845-9506) · <https://pablosancheznunez.com>

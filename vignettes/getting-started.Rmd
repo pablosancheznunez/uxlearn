@@ -29,7 +29,7 @@ improving digital products and services. Understanding how users interact
 with an interface requires collecting, analysing and interpreting
 usability data.
 
-The **uxlearn** package is an open R toolkit designed to support the
+**uxlearn** is an R package designed to support the
 teaching and learning of UX evaluation. It combines usability metrics,
 educational exercises, synthetic datasets and practical case studies.
 
@@ -305,6 +305,6 @@ By combining quantitative analysis with guided interpretation and
 design recommendations, the package supports a progressive approach
 to learning UX evaluation.
 
-The toolkit is intended for teaching, learning and experimentation.
+The package is intended for teaching, learning and experimentation.
 Its synthetic datasets should not be interpreted as empirical evidence
 about real users or digital services.

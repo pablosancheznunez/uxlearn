@@ -10,12 +10,12 @@
 Source:
 [`DESCRIPTION`](https://github.com/pablosancheznunez/uxlearn/blob/HEAD/DESCRIPTION)
 
-Sánchez-Núñez P (2026). *uxlearn: An Open R Toolkit for Learning User
+Sánchez-Núñez P (2026). *uxlearn: An R Package for Learning User
 Experience*. R package version 0.1.0,
 <https://pablosancheznunez.com/uxlearn/>.
 
     @Manual{,
-      title = {uxlearn: An Open R Toolkit for Learning User Experience},
+      title = {uxlearn: An R Package for Learning User Experience},
       author = {Pablo Sánchez-Núñez},
       year = {2026},
       note = {R package version 0.1.0},

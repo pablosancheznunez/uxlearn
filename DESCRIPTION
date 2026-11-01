@@ -1,6 +1,6 @@
 Package: uxlearn
 Type: Package
-Title: An Open R Toolkit for Learning User Experience
+Title: An R Package for Learning User Experience
 Version: 0.1.0
 Authors@R:
     person(
@@ -9,7 +9,7 @@ Authors@R:
       role = c("aut", "cre"),
       comment = c(ORCID = "0000-0001-7845-9506")
     )
-Description: An open R toolkit designed to support the teaching and
+Description: An R package designed to support the teaching and
     learning of user experience (UX). Provides tools for calculating
     usability metrics, analysing usability studies, and generating
     reproducible simulations of synthetic UX data. Includes educational
