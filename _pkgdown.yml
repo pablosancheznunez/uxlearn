@@ -1,0 +1,15 @@
+url: https://pablosancheznunez.com/uxlearn/
+
+template:
+  bootstrap: 5
+
+authors:
+  Pablo Sánchez-Núñez:
+    href: https://pablosancheznunez.com
+
+home:
+  links:
+  - text: Author website
+    href: https://pablosancheznunez.com
+  - text: Learning materials license (CC BY 4.0)
+    href: https://github.com/pablosancheznunez/uxlearn/blob/main/inst/learning-materials/LICENSE.md

@@ -5,6 +5,8 @@
 
 **Learn UX. Measure Experience. Design Better.**
 
+**Website and documentation: <https://pablosancheznunez.com/uxlearn/>**
+
 UXLearn is an open-source R package designed to support the teaching and learning of User Experience (UX) through practical exercises, usability metrics, data analysis, and reproducible simulations.
 
 The package provides accessible tools for exploring how users interact with digital products and services, interpreting usability results, and understanding the principles behind UX evaluation.
@@ -82,7 +84,7 @@ independent learning and practical classroom activities.
 
 UXLearn is currently under development and is not yet available on CRAN.
 
-Once the GitHub repository is publicly available, the package can be installed using:
+Install it from GitHub:
 
 ```r
 # install.packages("remotes")
@@ -208,4 +210,6 @@ Creative Commons Attribution 4.0 International (CC BY 4.0).
 Synthetic datasets are provided for educational and illustrative purposes.
 ## Citation
 
-Citation information will be provided when the package reaches its first public release.
+Sánchez-Núñez, P. (2026). *uxlearn: An Open R Toolkit for Learning User Experience* (Version 0.1.0) [R package]. https://pablosancheznunez.com/uxlearn/
+
+Author: Pablo Sánchez-Núñez · ORCID [0000-0001-7845-9506](https://orcid.org/0000-0001-7845-9506) · <https://pablosancheznunez.com>
