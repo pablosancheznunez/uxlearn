@@ -11,5 +11,52 @@ home:
   links:
   - text: Author website
     href: https://pablosancheznunez.com
+  - text: IxD Lab (interactive labs)
+    href: https://pablosancheznunez.com/ixd-lab/
   - text: Learning materials license (CC BY 4.0)
     href: https://github.com/pablosancheznunez/uxlearn/blob/main/inst/learning-materials/LICENSE.md
+
+navbar:
+  structure:
+    left: [intro, reference, articles]
+    right: [search, github]
+
+reference:
+- title: UX metrics
+  desc: Core usability indicators.
+  contents:
+  - ux_task_success
+  - ux_task_time
+  - ux_error_rate
+  - ux_sus_score
+- title: Analysing usability studies
+  contents:
+  - ux_usability_summary
+  - ux_recommendations
+- title: Simulating studies
+  contents:
+  - ux_simulate_study
+- title: Learning activities
+  desc: Exercises, case studies and the workbook.
+  contents:
+  - ux_learning
+  - ux_case_study
+  - ux_learning_materials
+- title: Datasets
+  desc: Synthetic data for teaching; they do not represent real users.
+  contents:
+  - usability_test
+  - ux_banking
+  - ux_education
+  - ux_egovernment
+
+articles:
+- title: Get started
+  navbar: ~
+  contents:
+  - getting-started
+- title: Learning materials
+  navbar: Learning materials
+  contents:
+  - articles/workbook
+  - articles/answer-key

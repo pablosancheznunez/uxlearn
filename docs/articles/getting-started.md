@@ -211,14 +211,14 @@ materials <- ux_learning_materials()
 #> UX Learning Materials
 #> 
 #>                                                                                                                   workbook 
-#> "C:/Users/psanc/AppData/Local/Temp/RtmpAFyUiO/temp_libpath830c56b9301f/uxlearn/learning-materials/UX-Learning-Workbook.md" 
+#> "C:/Users/psanc/AppData/Local/Temp/RtmpALO2Dy/temp_libpath10503f7b5437/uxlearn/learning-materials/UX-Learning-Workbook.md" 
 #>                                                                                                                 answer_key 
-#>           "C:/Users/psanc/AppData/Local/Temp/RtmpAFyUiO/temp_libpath830c56b9301f/uxlearn/learning-materials/Answer-Key.md"
+#>           "C:/Users/psanc/AppData/Local/Temp/RtmpALO2Dy/temp_libpath10503f7b5437/uxlearn/learning-materials/Answer-Key.md"
 materials
 #>                                                                                                                   workbook 
-#> "C:/Users/psanc/AppData/Local/Temp/RtmpAFyUiO/temp_libpath830c56b9301f/uxlearn/learning-materials/UX-Learning-Workbook.md" 
+#> "C:/Users/psanc/AppData/Local/Temp/RtmpALO2Dy/temp_libpath10503f7b5437/uxlearn/learning-materials/UX-Learning-Workbook.md" 
 #>                                                                                                                 answer_key 
-#>           "C:/Users/psanc/AppData/Local/Temp/RtmpAFyUiO/temp_libpath830c56b9301f/uxlearn/learning-materials/Answer-Key.md"
+#>           "C:/Users/psanc/AppData/Local/Temp/RtmpALO2Dy/temp_libpath10503f7b5437/uxlearn/learning-materials/Answer-Key.md"
 ```
 
 You can also open a specific resource directly:

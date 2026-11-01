@@ -1,4 +1,4 @@
-# UXLearn
+# uxlearn
 
 ### An R Package for Learning User Experience
 
@@ -6,7 +6,7 @@
 
 **Website and documentation: <https://pablosancheznunez.com/uxlearn/>**
 
-UXLearn is an open-source R package designed to support the teaching and
+uxlearn is an open-source R package designed to support the teaching and
 learning of User Experience (UX) through practical exercises, usability
 metrics, data analysis, and reproducible simulations.
 
@@ -48,7 +48,7 @@ relationships between:
 
 ### 4. Educational Dataset
 
-UXLearn includes a synthetic usability dataset with 150 observations
+uxlearn includes a synthetic usability dataset with 150 observations
 across 30 participants and five tasks.
 
 The dataset contains participant profiles, task characteristics, success
@@ -87,11 +87,11 @@ ux_case_study(domain = "education", level = "beginner")
 
 ### 7. Educational Materials
 
-UXLearn includes an educational workbook and an answer key to support
+uxlearn includes an educational workbook and an answer key to support
 independent learning and practical classroom activities. \##
 Installation
 
-UXLearn is currently under development and is not yet available on CRAN.
+uxlearn is currently under development and is not yet available on CRAN.
 
 Install it from GitHub:
 
@@ -173,7 +173,7 @@ results$by_experience
 
 ## Educational purpose
 
-UXLearn aims to make UX evaluation more accessible to students,
+uxlearn aims to make UX evaluation more accessible to students,
 educators, and researchers.
 
 Its educational approach combines:
@@ -189,7 +189,10 @@ in university courses, workshops, and independent learning.
 
 ## Accessing the learning materials
 
-The package includes the UX Learning Workbook and its Answer Key. Use
+The UX Learning Workbook and its Answer Key can be read online in the
+[Learning
+materials](https://pablosancheznunez.com/uxlearn/articles/workbook.html)
+section of the website. They are also included in the package. Use
 [`ux_learning_materials()`](https://pablosancheznunez.com/uxlearn/reference/ux_learning_materials.md)
 to locate the files:
 
@@ -207,7 +210,7 @@ ux_learning_materials("answer_key", open = TRUE)
 
 ## Development status
 
-UXLearn is under active development.
+uxlearn is under active development.
 
 The current version includes initial usability metrics, descriptive
 analysis functions, a synthetic educational dataset, and a reproducible
@@ -220,8 +223,9 @@ functions.
 
 Suggestions, feedback, and contributions are welcome.
 
-Further information about contributing will be provided when the public
-repository is available.
+Open an [issue](https://github.com/pablosancheznunez/uxlearn/issues) to
+report a problem or suggest an improvement. Teaching materials and new
+case studies are especially welcome.
 
 ## License
 
@@ -232,7 +236,9 @@ UX Learning Workbook and Answer Key, are licensed under Creative Commons
 Attribution 4.0 International (CC BY 4.0).
 
 Synthetic datasets are provided for educational and illustrative
-purposes. \## Citation
+purposes.
+
+## Citation
 
 Sánchez-Núñez, P. (2026). *uxlearn: An R Package for Learning User
 Experience* (Version 0.1.0) \[R package\].
@@ -241,3 +247,6 @@ Experience* (Version 0.1.0) \[R package\].
 Author: Pablo Sánchez-Núñez · ORCID
 [0000-0001-7845-9506](https://orcid.org/0000-0001-7845-9506) ·
 <https://pablosancheznunez.com>
+
+In R, run `citation("uxlearn")`. On GitHub, use **Cite this
+repository**.

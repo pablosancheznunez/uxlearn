@@ -6,6 +6,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>An R Package for Learning User Experience • uxlearn</title>
+<!-- favicons --><link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="”image/svg+xml”" href="favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" sizes="any" href="favicon.ico">
+<link rel="manifest" href="site.webmanifest">
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.8/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.3.8/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
@@ -13,6 +18,7 @@
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="An R Package for Learning User Experience">
 <meta name="description" content="An R package designed to support the teaching and learning of user experience (UX). Provides tools for calculating usability metrics, analysing usability studies, and generating reproducible simulations of synthetic UX data. Includes educational datasets and practical functions for exploring user behaviour, evaluating usability, and interpreting UX research results.">
 <meta property="og:description" content="An R package designed to support the teaching and learning of user experience (UX). Provides tools for calculating usability metrics, analysing usability studies, and generating reproducible simulations of synthetic UX data. Includes educational datasets and practical functions for exploring user behaviour, evaluating usability, and interpreting UX research results.">
+<meta property="og:image" content="https://pablosancheznunez.com/uxlearn/logo.svg">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -36,6 +42,10 @@
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
 <li><a class="dropdown-item" href="articles/getting-started.html">Getting Started with uxlearn</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><h6 class="dropdown-header" data-toc-skip>Learning materials</h6></li>
+    <li><a class="dropdown-item" href="articles/workbook.html">UX Learning Workbook</a></li>
+    <li><a class="dropdown-item" href="articles/answer-key.html">Answer Key and Self-Assessment Guide</a></li>
   </ul>
 </li>
       </ul>
@@ -52,14 +62,16 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="uxlearn">UXLearn<a class="anchor" aria-label="anchor" href="#uxlearn"></a>
-</h1></div>
+<div class="page-header">
+<img src="logo.svg" class="logo" alt=""><h1 id="uxlearn-">uxlearn <a class="anchor" aria-label="anchor" href="#uxlearn-"></a>
+</h1>
+</div>
 <div class="section level3">
 <h3 id="an-r-package-for-learning-user-experience">An R Package for Learning User Experience<a class="anchor" aria-label="anchor" href="#an-r-package-for-learning-user-experience"></a>
 </h3>
 <p><strong>Learn UX. Measure Experience. Design Better.</strong></p>
 <p><strong>Website and documentation: <a href="https://pablosancheznunez.com/uxlearn/" class="uri">https://pablosancheznunez.com/uxlearn/</a></strong></p>
-<p>UXLearn is an open-source R package designed to support the teaching and learning of User Experience (UX) through practical exercises, usability metrics, data analysis, and reproducible simulations.</p>
+<p>uxlearn is an open-source R package designed to support the teaching and learning of User Experience (UX) through practical exercises, usability metrics, data analysis, and reproducible simulations.</p>
 <p>The package provides accessible tools for exploring how users interact with digital products and services, interpreting usability results, and understanding the principles behind UX evaluation.</p>
 </div>
 <div class="section level2">
@@ -103,7 +115,7 @@
 <div class="section level3">
 <h3 id="id_4-educational-dataset">4. Educational Dataset<a class="anchor" aria-label="anchor" href="#id_4-educational-dataset"></a>
 </h3>
-<p>UXLearn includes a synthetic usability dataset with 150 observations across 30 participants and five tasks.</p>
+<p>uxlearn includes a synthetic usability dataset with 150 observations across 30 participants and five tasks.</p>
 <p>The dataset contains participant profiles, task characteristics, success outcomes, completion times, errors, and satisfaction scores.</p>
 <p><strong>All simulated observations are synthetic and do not represent real users.</strong></p>
 </div>
@@ -130,8 +142,8 @@
 <div class="section level3">
 <h3 id="id_7-educational-materials">7. Educational Materials<a class="anchor" aria-label="anchor" href="#id_7-educational-materials"></a>
 </h3>
-<p>UXLearn includes an educational workbook and an answer key to support independent learning and practical classroom activities. ## Installation</p>
-<p>UXLearn is currently under development and is not yet available on CRAN.</p>
+<p>uxlearn includes an educational workbook and an answer key to support independent learning and practical classroom activities. ## Installation</p>
+<p>uxlearn is currently under development and is not yet available on CRAN.</p>
 <p>Install it from GitHub:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
@@ -203,7 +215,7 @@
 <div class="section level2">
 <h2 id="educational-purpose">Educational purpose<a class="anchor" aria-label="anchor" href="#educational-purpose"></a>
 </h2>
-<p>UXLearn aims to make UX evaluation more accessible to students, educators, and researchers.</p>
+<p>uxlearn aims to make UX evaluation more accessible to students, educators, and researchers.</p>
 <p>Its educational approach combines:</p>
 <ul>
 <li>Learning by doing.</li>
@@ -217,7 +229,7 @@
 <div class="section level2">
 <h2 id="accessing-the-learning-materials">Accessing the learning materials<a class="anchor" aria-label="anchor" href="#accessing-the-learning-materials"></a>
 </h2>
-<p>The package includes the UX Learning Workbook and its Answer Key. Use <code><a href="reference/ux_learning_materials.html">ux_learning_materials()</a></code> to locate the files:</p>
+<p>The UX Learning Workbook and its Answer Key can be read online in the <a href="https://pablosancheznunez.com/uxlearn/articles/workbook.html">Learning materials</a> section of the website. They are also included in the package. Use <code><a href="reference/ux_learning_materials.html">ux_learning_materials()</a></code> to locate the files:</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># List all educational materials</span></span>
 <span><span class="fu"><a href="reference/ux_learning_materials.html">ux_learning_materials</a></span><span class="op">(</span><span class="op">)</span></span>
@@ -231,7 +243,7 @@
 <div class="section level2">
 <h2 id="development-status">Development status<a class="anchor" aria-label="anchor" href="#development-status"></a>
 </h2>
-<p>UXLearn is under active development.</p>
+<p>uxlearn is under active development.</p>
 <p>The current version includes initial usability metrics, descriptive analysis functions, a synthetic educational dataset, and a reproducible usability study simulator.</p>
 <p>Automated tests are used to check the reliability of the implemented functions.</p>
 </div>
@@ -239,16 +251,21 @@
 <h2 id="contributing">Contributing<a class="anchor" aria-label="anchor" href="#contributing"></a>
 </h2>
 <p>Suggestions, feedback, and contributions are welcome.</p>
-<p>Further information about contributing will be provided when the public repository is available.</p>
+<p>Open an <a href="https://github.com/pablosancheznunez/uxlearn/issues" class="external-link">issue</a> to report a problem or suggest an improvement. Teaching materials and new case studies are especially welcome.</p>
 </div>
 <div class="section level2">
 <h2 id="license">License<a class="anchor" aria-label="anchor" href="#license"></a>
 </h2>
 <p>The R package and its source code are distributed under the MIT License.</p>
 <p>The educational materials in <code>inst/learning-materials/</code>, including the UX Learning Workbook and Answer Key, are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).</p>
-<p>Synthetic datasets are provided for educational and illustrative purposes. ## Citation</p>
+<p>Synthetic datasets are provided for educational and illustrative purposes.</p>
+</div>
+<div class="section level2">
+<h2 id="citation">Citation<a class="anchor" aria-label="anchor" href="#citation"></a>
+</h2>
 <p>Sánchez-Núñez, P. (2026). <em>uxlearn: An R Package for Learning User Experience</em> (Version 0.1.0) [R package]. <a href="https://pablosancheznunez.com/uxlearn/" class="uri">https://pablosancheznunez.com/uxlearn/</a></p>
 <p>Author: Pablo Sánchez-Núñez · ORCID <a href="https://orcid.org/0000-0001-7845-9506" class="external-link">0000-0001-7845-9506</a> · <a href="https://pablosancheznunez.com" class="external-link uri">https://pablosancheznunez.com</a></p>
+<p>In R, run <code>citation("uxlearn")</code>. On GitHub, use <strong>Cite this repository</strong>.</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
@@ -257,6 +274,7 @@
 <li><a href="https://github.com/pablosancheznunez/uxlearn/" class="external-link">Browse source code</a></li>
 <li><a href="https://github.com/pablosancheznunez/uxlearn/issues" class="external-link">Report a bug</a></li>
 <li><a href="https://pablosancheznunez.com" class="external-link">Author website</a></li>
+<li><a href="https://pablosancheznunez.com/ixd-lab/" class="external-link">IxD Lab (interactive labs)</a></li>
 <li><a href="https://github.com/pablosancheznunez/uxlearn/blob/main/inst/learning-materials/LICENSE.md" class="external-link">Learning materials license (CC BY 4.0)</a></li>
 </ul>
 </div>

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use uxlearn in teaching or research, please cite it as below."
+type: software
+title: "uxlearn: An R Package for Learning User Experience"
+version: 0.1.0
+date-released: 2026-11-01
+authors:
+  - family-names: "Sánchez-Núñez"
+    given-names: "Pablo"
+    email: psancheznunez@outlook.com
+    orcid: "https://orcid.org/0000-0001-7845-9506"
+url: "https://pablosancheznunez.com/uxlearn/"
+repository-code: "https://github.com/pablosancheznunez/uxlearn"
+license: MIT
+abstract: >-
+  uxlearn is an open R package for teaching and learning user experience (UX)
+  evaluation: usability metrics, analysis of usability studies, reproducible
+  simulations of synthetic UX data, case studies, and a workbook. The package
+  is released under the MIT License and the learning materials under CC BY 4.0.
+keywords:
+  - user experience
+  - usability
+  - UX research
+  - education
+  - open educational resources
+  - R

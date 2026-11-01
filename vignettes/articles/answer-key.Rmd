@@ -1,0 +1,11 @@
+---
+title: "Answer Key and Self-Assessment Guide"
+subtitle: "UX Learning Workbook"
+---
+
+*Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Also available inside the package: `ux_learning_materials("answer_key", open = TRUE)`.*
+
+```{r, echo = FALSE, results = "asis"}
+md <- readLines(system.file("learning-materials", "Answer-Key.md", package = "uxlearn"), encoding = "UTF-8")
+cat(md[-(1:2)], sep = "\n")
+```

@@ -1,0 +1,11 @@
+---
+title: "UX Learning Workbook"
+subtitle: "Learn, Analyse and Improve Digital Experiences"
+---
+
+*Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Also available inside the package: `ux_learning_materials("workbook", open = TRUE)`.*
+
+```{r, echo = FALSE, results = "asis"}
+md <- readLines(system.file("learning-materials", "UX-Learning-Workbook.md", package = "uxlearn"), encoding = "UTF-8")
+cat(md[-(1:2)], sep = "\n")
+```
