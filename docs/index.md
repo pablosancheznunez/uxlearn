@@ -2,6 +2,8 @@
 
 ### An R Package for Learning User Experience
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23863529.svg)](https://doi.org/10.5281/zenodo.23863529)
+
 **Learn UX. Measure Experience. Design Better.**
 
 **Website and documentation: <https://pablosancheznunez.com/uxlearn/>**
@@ -241,8 +243,8 @@ purposes.
 ## Citation
 
 Sánchez-Núñez, P. (2026). *uxlearn: An R Package for Learning User
-Experience* (Version 0.1.0) \[R package\].
-<https://pablosancheznunez.com/uxlearn/>
+Experience* (Version 0.1.0) \[R package\]. Zenodo.
+<https://doi.org/10.5281/zenodo.23863529>
 
 Author: Pablo Sánchez-Núñez · ORCID
 [0000-0001-7845-9506](https://orcid.org/0000-0001-7845-9506) ·

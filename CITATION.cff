@@ -12,6 +12,14 @@ authors:
 url: "https://pablosancheznunez.com/uxlearn/"
 repository-code: "https://github.com/pablosancheznunez/uxlearn"
 license: MIT
+doi: 10.5281/zenodo.23863529
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23863529
+    description: "Concept DOI: all versions, resolves to the latest"
+  - type: doi
+    value: 10.5281/zenodo.23863530
+    description: "Version 0.1.0"
 abstract: >-
   uxlearn is an open R package for teaching and learning user experience (UX)
   evaluation: usability metrics, analysis of usability studies, reproducible

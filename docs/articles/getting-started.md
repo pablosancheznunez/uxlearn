@@ -210,15 +210,15 @@ List the available materials:
 materials <- ux_learning_materials()
 #> UX Learning Materials
 #> 
-#>                                                                                                                   workbook 
-#> "C:/Users/psanc/AppData/Local/Temp/RtmpALO2Dy/temp_libpath10503f7b5437/uxlearn/learning-materials/UX-Learning-Workbook.md" 
-#>                                                                                                                 answer_key 
-#>           "C:/Users/psanc/AppData/Local/Temp/RtmpALO2Dy/temp_libpath10503f7b5437/uxlearn/learning-materials/Answer-Key.md"
+#>                                                                                                                  workbook 
+#> "C:/Users/psanc/AppData/Local/Temp/RtmpUb2nzZ/temp_libpath38c22015d06/uxlearn/learning-materials/UX-Learning-Workbook.md" 
+#>                                                                                                                answer_key 
+#>           "C:/Users/psanc/AppData/Local/Temp/RtmpUb2nzZ/temp_libpath38c22015d06/uxlearn/learning-materials/Answer-Key.md"
 materials
-#>                                                                                                                   workbook 
-#> "C:/Users/psanc/AppData/Local/Temp/RtmpALO2Dy/temp_libpath10503f7b5437/uxlearn/learning-materials/UX-Learning-Workbook.md" 
-#>                                                                                                                 answer_key 
-#>           "C:/Users/psanc/AppData/Local/Temp/RtmpALO2Dy/temp_libpath10503f7b5437/uxlearn/learning-materials/Answer-Key.md"
+#>                                                                                                                  workbook 
+#> "C:/Users/psanc/AppData/Local/Temp/RtmpUb2nzZ/temp_libpath38c22015d06/uxlearn/learning-materials/UX-Learning-Workbook.md" 
+#>                                                                                                                answer_key 
+#>           "C:/Users/psanc/AppData/Local/Temp/RtmpUb2nzZ/temp_libpath38c22015d06/uxlearn/learning-materials/Answer-Key.md"
 ```
 
 You can also open a specific resource directly:
