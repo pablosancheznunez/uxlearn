@@ -1,20 +1,21 @@
 Package: uxlearn
 Type: Package
-Title: An R Package for Learning User Experience
+Title: Tools for Learning User Experience
 Version: 0.1.0
 Authors@R:
     person(
       "Pablo", "Sánchez-Núñez",
       email = "psancheznunez@outlook.com",
-      role = c("aut", "cre"),
+      role = c("aut", "cre", "cph"),
       comment = c(ORCID = "0000-0001-7845-9506")
     )
-Description: An R package designed to support the teaching and
-    learning of user experience (UX). Provides tools for calculating
-    usability metrics, analysing usability studies, and generating
-    reproducible simulations of synthetic UX data. Includes educational
-    datasets and practical functions for exploring user behaviour,
-    evaluating usability, and interpreting UX research results.
+Description: Supports the teaching and learning of user experience (UX)
+    evaluation. Provides functions for usability metrics (task success, task
+    time, error rate and the System Usability Scale), for summarising
+    usability studies and for simulating reproducible synthetic UX data, with
+    teaching datasets, case studies and a workbook. The System Usability Scale
+    follows Brooke (1996, ISBN:9780748404605). Learning materials are licensed
+    CC BY 4.0.
 URL: https://pablosancheznunez.com/uxlearn/, https://github.com/pablosancheznunez/uxlearn
 BugReports: https://github.com/pablosancheznunez/uxlearn/issues
 License: MIT + file LICENSE

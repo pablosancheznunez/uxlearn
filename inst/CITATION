@@ -1,10 +1,13 @@
 bibentry(
   bibtype = "Manual",
-  title = "uxlearn: An R Package for Learning User Experience",
+  title = "{uxlearn}: Tools for Learning User Experience",
   author = person("Pablo", "Sánchez-Núñez", comment = c(ORCID = "0000-0001-7845-9506")),
   year = "2026",
-  note = "R package version 0.1.0",
+  note = paste("R package version", meta$Version),
   url = "https://pablosancheznunez.com/uxlearn/",
   doi = "10.5281/zenodo.23863529",
-  textVersion = "Sánchez-Núñez, P. (2026). uxlearn: An R Package for Learning User Experience (Version 0.1.0) [R package]. Zenodo. https://doi.org/10.5281/zenodo.23863529"
+  textVersion = paste0(
+    "Sánchez-Núñez, P. (2026). uxlearn: Tools for Learning User Experience. ",
+    "R package version ", meta$Version, ". https://doi.org/10.5281/zenodo.23863529"
+  )
 )

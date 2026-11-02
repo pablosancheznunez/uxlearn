@@ -9,3 +9,7 @@
 ^pkgdown$
 ^CITATION\.cff$
 ^vignettes/articles$
+^\.github$
+^cran-comments\.md$
+^CONTRIBUTING\.md$
+^\.maintenance\.json$

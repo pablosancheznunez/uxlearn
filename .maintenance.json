@@ -1,0 +1,7 @@
+{
+  "risk_paths": {
+    "high": ["R/**", "data/**", "data-raw/**", "inst/learning-materials/**", "tests/**"],
+    "low": ["README.md", "vignettes/**", "man/**", "_pkgdown.yml", "pkgdown/**"]
+  },
+  "release": { "version_files": ["CITATION.cff", "DESCRIPTION"] }
+}

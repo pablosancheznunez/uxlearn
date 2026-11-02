@@ -6,7 +6,7 @@ The educational materials contained in this directory, including the UX Learning
 
 **Author:** Pablo Sánchez-Núñez
 
-**Project:** uxlearn — An R Package for Learning User Experience
+**Project:** uxlearn — Tools for Learning User Experience
 
 **License:** Creative Commons Attribution 4.0 International
 
