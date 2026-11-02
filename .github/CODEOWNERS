@@ -1,9 +1,6 @@
-# Paths that need the maintainer's approval (see .maintenance.json).
-/R/ @pablosancheznunez
+# Paths whose changes need the maintainer's review.
 /data/ @pablosancheznunez
 /data-raw/ @pablosancheznunez
 /inst/learning-materials/ @pablosancheznunez
 /tests/ @pablosancheznunez
 /.github/ @pablosancheznunez
-/.maintenance.json @pablosancheznunez
-/CONTRIBUTING.md @pablosancheznunez
