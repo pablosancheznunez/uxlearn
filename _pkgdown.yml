@@ -2,6 +2,10 @@ url: https://pablosancheznunez.com/uxlearn/
 
 template:
   bootstrap: 5
+  opengraph:
+    image:
+      src: man/figures/card.png
+      alt: "uxlearn: an R package for learning user experience"
 
 authors:
   Pablo Sánchez-Núñez:
